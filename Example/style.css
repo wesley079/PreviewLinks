@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+}
+#content{
+    display: block;
+    width: 70%;
+    float: left;
+}
+h1{
+    text-align: center;
+}
+
+#siteLoader{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    border: black 1px solid;
+    padding: 5px;
+}
+
+#iframeHolder{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 999;
+    opacity: 0.5;
+}
+
+#iframeHolder:hover{
+    opacity: 1;
+}
+
+a{
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
